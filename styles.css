@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.social-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-buttons a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.twitter {
+    background-color: #00acee;
+}
+
+.instagram {
+    background-color: #e1306c;
+}
+
+.social-buttons a:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+.social-buttons a:active {
+    transform: scale(0.95);
+}
